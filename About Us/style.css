@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+:root {
+    --main-color: #111111;
+    --second-color: #171717;
+    --third-color: #292929;
+    --fourth-color: #Ffffff;
+    --fifth-color: #9c4807;
+    --sixth-color: #9c4807;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+:root {
+    --main-color: #c60026;
+    --second-color: #1a1919;
+    --third-color: #262626;
+    --fourth-color: #ffffff;
+    --fifth-color: #c60026;
+    --sixth-color: #c60026;
+}
+
+body {
+    overflow: hidden;
+}
+
+.rest:hover,
+.active {
+    color: var(--fifth-color);
+}
+
+.back {
+    background-color: var(--main-color, black);
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+    padding: 25px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.posts {
+    background-color: var( --second-color, grey);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.posts .inner {
+    background-color: var(--third-color);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.posts .inner h3 {
+    color: var(--fourth-color);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.posts .inner p {
+    color: var(--fourth-color);
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    opacity: 0.7;
+}

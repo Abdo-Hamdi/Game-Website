@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap%27);
+:root {
+    --main-color: #c60026;
+    --second-color: #1a1919;
+    --third-color: #262626;
+    --fourth-color: #ffffff;
+    --fifth-color: #c60026;
+    --sixth-color: #c60026;
+}
+
+* {
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.back {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.s1 {
+    margin: 15px;
+}
+
+.bg {
+    width: 80%;
+    background-color: var(--second-color);
+    padding: 2em;
+    border-radius: 25px;
+}
+
+.bg .headDetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg .headDetails .details {
+    padding: 0 2em;
+    font-size: 20px;
+    line-height: 50px;
+    color: var(--fourth-color);
+}
+
+.bg img {
+    width: 100%;
+}
+
+.bg .images {
+    margin: 2em 0;
+    display: flex;
+    align-items: center;
+    height: 250px;
+    overflow-y: hidden
+}
+
+.bg .images div {
+    padding: 10px;
+}
+
+footer {
+    background-color: var(--second-color);
+    color: var(--fourth-color);
+    padding-top: 5px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 25px 25px 0 0;
+}
